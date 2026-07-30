@@ -1,21 +1,24 @@
 import { siteConfig } from "../../../config/site";
 
-const username = siteConfig.githubUsername;
-
 const GitHubStats = () => {
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
-      <img
-        className="w-full rounded-xl"
-        src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=transparent`}
-        alt="GitHub Stats"
-      />
+    <div className="rounded-2xl border border-border bg-surface p-8 text-center">
+      <h3 className="mb-3 text-2xl font-bold text-theme">
+        GitHub Profile
+      </h3>
 
-      <img
-        className="w-full rounded-xl"
-        src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=transparent`}
-        alt="Top Languages"
-      />
+      <p className="mb-6 text-muted">
+        Explore my repositories, contributions, and open-source work on GitHub.
+      </p>
+
+      <a
+        href={siteConfig.github}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center rounded-lg bg-primary px-6 py-3 font-semibold text-white transition hover:opacity-90"
+      >
+        View GitHub Profile
+      </a>
     </div>
   );
 };
