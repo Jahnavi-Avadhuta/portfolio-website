@@ -1,0 +1,13 @@
+export * from "./personal";
+export * from "./skills";
+export * from "./projects";
+export * from "./experience";
+export * from "./education";
+export * from "./achievements";
+export * from "./certificates";
+export * from "./socials";
+export * from "./stats";
+export { learningItems } from "./learning";
+export { roadmap } from "./roadmap";
+export { featuredRepos } from "./github";
+export { contactInfo } from "./contact";
