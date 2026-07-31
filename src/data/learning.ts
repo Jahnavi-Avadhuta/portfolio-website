@@ -33,7 +33,7 @@ export const learningItems: Learning[] = [
     title: "Cloud & MLOps",
     description:
       "Learning Docker, AWS, CI/CD, and MLOps practices for deploying scalable AI and software applications.",
-    status: "Exploring",
+    status: "Learning",
     icon: "☁️",
     technologies: ["Docker", "AWS", "CI/CD"],
   },
