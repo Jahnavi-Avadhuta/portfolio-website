@@ -3,34 +3,38 @@ import type { Learning } from "../types/learning";
 export const learningItems: Learning[] = [
   {
     id: 1,
-    title: "Spring Security",
-    description: "Implementing JWT authentication, role-based authorization and secure REST APIs.",
+    title: "Machine Learning",
+    description:
+      "Building a strong foundation in supervised learning, feature engineering, model evaluation, and predictive modeling through hands-on projects.",
     status: "Practicing",
-    icon: "🔒",
-    technologies: ["Spring Boot", "JWT", "OAuth2"],
+    icon: "🧠",
+    technologies: ["Python", "Scikit-learn", "Pandas"],
   },
   {
     id: 2,
-    title: "Docker",
-    description: "Containerizing Spring Boot and React applications for deployment.",
+    title: "Deep Learning",
+    description:
+      "Learning neural networks, TensorFlow, and PyTorch to build intelligent computer vision and natural language processing applications.",
     status: "Learning",
-    icon: "🐳",
-    technologies: ["Docker", "Docker Compose"],
+    icon: "🧩",
+    technologies: ["TensorFlow", "PyTorch", "Neural Networks"],
   },
   {
     id: 3,
-    title: "AWS Cloud",
-    description: "Learning cloud deployment, EC2, S3 and hosting full-stack applications.",
+    title: "Generative AI",
+    description:
+      "Exploring Large Language Models, Prompt Engineering, LangChain, Retrieval-Augmented Generation (RAG), and AI agent development.",
     status: "Learning",
-    icon: "☁️",
-    technologies: ["AWS", "EC2", "S3"],
+    icon: "🤖",
+    technologies: ["LLMs", "LangChain", "RAG"],
   },
   {
     id: 4,
-    title: "System Design",
-    description: "Understanding scalable application architecture and backend design principles.",
-    status: "Building",
-    icon: "🏗️",
-    technologies: ["REST APIs", "Microservices", "Scalability"],
+    title: "Cloud & MLOps",
+    description:
+      "Learning Docker, AWS, CI/CD, and MLOps practices for deploying scalable AI and software applications.",
+    status: "Exploring",
+    icon: "☁️",
+    technologies: ["Docker", "AWS", "CI/CD"],
   },
 ];

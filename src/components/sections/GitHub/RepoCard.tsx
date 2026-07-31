@@ -41,7 +41,7 @@ const RepoCard = ({ repo }: RepoCardProps) => {
           className="flex items-center gap-2 text-primary hover:underline"
         >
           <FaGithub />
-          Code
+          View Repository →
         </a>
 
         {repo.demo && (
