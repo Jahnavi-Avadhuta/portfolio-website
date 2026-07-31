@@ -80,6 +80,23 @@ export const projects: Project[] = [
 
   {
     id: 5,
+    title: "Expense Tracker",
+    description:
+      "A Java console-based application for tracking daily expenses with category-wise analysis, file handling, and object-oriented design.",
+    image: "/projects/expense-tracker.png",
+    technologies: [
+      "Java",
+      "OOP",
+      "Collections",
+      "File Handling",
+      "Exception Handling",
+    ],
+    github: "https://github.com/Jahnavi-Avadhuta/expense-tracker-java",
+    featured: false,
+  },
+
+  {
+    id: 6,
     title: "Red Wine Quality Prediction",
     description:
       "Machine learning model that predicts wine quality using multiple classification techniques.",
@@ -95,7 +112,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Health Monitoring using Social Media",
     description:
       "AI/ML project that analyzes Twitter data to identify health trends over time.",
