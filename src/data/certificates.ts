@@ -293,4 +293,23 @@ export const certificates: Certificate[] = [
     pdf: "/certificates/pdfs/health-monitoring.pdf",
     featured: false,
   },
+
+  {
+    id: 16,
+    title: "Red Wine Quality Prediction Using ML Techniques",
+    issuer: "MoE Innovation Cell",
+    organization: "Malla Reddy College of Engineering for Women",
+    issued: "2024–25",
+    score: "Machine Learning Project",
+    category: "Project",
+    skills: [
+      "Machine Learning",
+      "Python",
+      "Data Analysis",
+      "Predictive Modeling"
+    ],
+    thumbnail: "/certificates/thumbnails/red-wine-quality-prediction.jpg",
+    pdf: "/certificates/pdfs/red-wine-quality-prediction.pdf",
+    featured: false,
+  },
 ];
