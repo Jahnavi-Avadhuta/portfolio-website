@@ -3,21 +3,21 @@ export const personal = {
 
   titles: [
     "Software Engineer",
-    "Full Stack Developer",
+    "Java Full Stack Developer",
     "AI & Machine Learning Enthusiast",
     "GenAI Developer",
-    "Data Science Aspirant",
+    "Data Science Enthusiast",
   ],
 
   tagline:
     "Building scalable software, intelligent applications, and data-driven solutions.",
 
   about: [
-    "I'm a Computer Science graduate passionate about software engineering, Artificial Intelligence, Machine Learning, and Data Science.",
+    "I'm a Computer Science graduate passionate about Software Engineering, Artificial Intelligence, Machine Learning, and Data Science.",
 
-    "I completed a Java Full Stack with GenAI program where I developed full-stack applications using Java, Spring Boot, React, MySQL, and modern development practices.",
+    "I have built full-stack web applications, AI-powered desktop software, machine learning models, and automation projects using Java, Spring Boot, Python, React, SQL, and modern development tools.",
 
-    "I'm currently expanding my expertise in Python, AI, Machine Learning, and Data Science while preparing for my Master's in Data Science.",
+    "Currently, I'm expanding my expertise in Data Science, Machine Learning, and Generative AI while preparing for my Master's in Data Science and continuously building real-world projects.",
   ],
 
   location: "Hyderabad, Telangana, India",

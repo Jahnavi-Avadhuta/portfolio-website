@@ -17,9 +17,8 @@ const Footer = () => {
             </h3>
 
             <p className="mt-2 max-w-md text-gray-400">
-              Java Full Stack Developer passionate about building
-              scalable web applications and continuously learning
-              modern technologies.
+              Software Engineer building scalable software, intelligent
+              applications, and data-driven solutions.
             </p>
           </div>
 
@@ -69,7 +68,7 @@ const Footer = () => {
 
         <div className="mt-10 border-t border-white/10 pt-6 text-center text-sm text-gray-400">
 
-          © {year} {siteConfig.name}. Designed & Developed by Jahnavi Avadhuta using React, TypeScript & Tailwind CSS.
+          © {year} {siteConfig.name}. Designed & Developed using React, TypeScript & Tailwind CSS.
 
         </div>
 
