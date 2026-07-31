@@ -6,10 +6,10 @@ export const experiences: Experience[] = [
     id: 1,
     role: "Java Full Stack Trainee",
     company: "V Cube Software Solutions",
-    duration: "2025 – Present",
+    duration: "2025 – 2026",
     location: "Hyderabad, India",
     description:
-      "Undergoing intensive training in Java Full Stack Development with hands-on implementation of enterprise applications using modern backend and frontend technologies.",
+      "Successfully completed comprehensive Java Full Stack training with hands-on experience in developing enterprise-grade web applications using Java, Spring Boot, React, MySQL, REST APIs, Hibernate, and Git. Built multiple real-world full-stack projects while strengthening backend development, database design, authentication, and API integration skills.",
     technologies: [
       "Java",
       "Spring Boot",
@@ -21,7 +21,7 @@ export const experiences: Experience[] = [
       "JPA",
     ],
     icon: Code2,
-    current: true,
+    current: false,
   },
   {
     id: 2,
