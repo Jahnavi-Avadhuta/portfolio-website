@@ -85,3 +85,7 @@ section{
     var(--background)
   );
 }
+
+html {
+  scroll-behavior: smooth;
+}
