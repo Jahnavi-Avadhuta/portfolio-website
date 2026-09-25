@@ -7,13 +7,13 @@ import StatCard from "../../common/StatCard";
 const technologies = [
   "Java",
   "Python",
+  "SQL",
+  "Data Analysis",
+  "Machine Learning",
   "Spring Boot",
   "React",
-  "Machine Learning",
-  "SQL",
   "REST APIs",
   "Git",
-  "Docker",
 ];
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
       <Container>
         <SectionHeading
           title="About Me"
-          subtitle="Passionate about building intelligent software, scalable backend systems, and AI-powered applications."
+          subtitle="Passionate about building practical software and exploring data-driven solutions."
         />
 
         <div className="grid items-start gap-16 lg:grid-cols-2">
@@ -40,21 +40,21 @@ const About = () => {
               className="mb-6 leading-8"
               style={{ color: "var(--text-light)" }}
             >
-              I'm Jahnavi Avadhuta, a Computer Science graduate passionate about Software Engineering, Artificial Intelligence, and Data Science. I enjoy designing and building practical applications using Java, Spring Boot, Python, React, SQL, and modern development tools while continuously expanding my technical skills through hands-on projects.
+              I'm Jahnavi Avadhuta, a Computer Science graduate with a strong foundation in software development, databases, and application development. I enjoy building practical applications using Java, Spring Boot, Python, React, SQL, and modern development tools.
             </p>
 
             <p
               className="mb-6 leading-8"
               style={{ color: "var(--text-light)" }}
             >
-              Over the past year, I've built full-stack web applications, AI-powered desktop software, machine learning models, and automation projects that strengthened my expertise in backend development, REST APIs, database design, software architecture, and problem-solving.
+              Through internships, training, and hands-on projects, I've worked with full-stack applications, backend development, REST APIs, database-driven systems, and AI-powered applications. These experiences have strengthened my understanding of software development, database design, API integration, and practical problem-solving.
             </p>
 
             <p
               className="mb-8 leading-8"
               style={{ color: "var(--text-light)" }}
             >
-              My goal is to contribute as a Software Engineer by building intelligent, scalable, and impactful software solutions while continuously growing in Artificial Intelligence and Data Science.
+              Alongside my software development background, I’m developing a growing interest in data analytics and how data can be used to identify patterns, generate insights, and support better decision-making. I’m currently strengthening my skills in SQL, Python, data analysis, data visualization, and machine learning.
             </p>
 
             <div className="flex flex-wrap gap-3">

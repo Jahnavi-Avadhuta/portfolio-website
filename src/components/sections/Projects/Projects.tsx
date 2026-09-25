@@ -15,7 +15,7 @@ const Projects = () => {
       <Container>
         <SectionHeading
           title="Projects"
-          subtitle="A selection of software engineering, AI, and machine learning projects that showcase my technical skills and learning journey."
+          subtitle="A selection of software, data, and AI projects that showcase my technical skills and problem-solving journey."
         />
 
         <div className="mb-20">

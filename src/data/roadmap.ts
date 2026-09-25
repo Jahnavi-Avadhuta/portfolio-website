@@ -6,39 +6,34 @@ export const roadmap: RoadmapStep[] = [
     title: "Java Full Stack Development",
     timeframe: "2025–2026",
     description:
-      "Master Java, Spring Boot, React, SQL, REST APIs, and software engineering fundamentals while building scalable full-stack applications.",
+      "Strengthen Java, Spring Boot, React, SQL, REST APIs, and software engineering fundamentals through hands-on full-stack development.",
     completed: true,
   },
+
   {
     id: 2,
     title: "Industry-Ready Projects",
     timeframe: "2026",
     description:
-      "Develop real-world backend and full-stack projects, strengthen problem-solving skills, and build a professional portfolio using modern development practices.",
+      "Build practical backend, full-stack, AI, and data-oriented projects while strengthening problem-solving skills and developing a professional portfolio.",
     completed: true,
   },
+
   {
     id: 3,
-    title: "Master's in Data Science (Scotland)",
-    timeframe: "2027",
+    title: "Data & Analytics Development",
+    timeframe: "2026–2027",
     description:
-      "Pursue advanced studies in Data Science, Machine Learning, Artificial Intelligence, and Big Data while gaining international exposure and practical research experience.",
+      "Strengthen skills in SQL, Python, data analysis, data visualization, and machine learning through structured learning and practical projects.",
     completed: false,
   },
+
   {
     id: 4,
-    title: "AI, Cloud & Data Engineering",
-    timeframe: "2027–2028",
+    title: "Analytics & Business Intelligence",
+    timeframe: "2027+",
     description:
-      "Expand expertise in Python, Machine Learning, Data Engineering, Docker, AWS, CI/CD, and MLOps to design, deploy, and scale intelligent applications.",
-    completed: false,
-  },
-  {
-    id: 5,
-    title: "Software Engineer | AI & Data",
-    timeframe: "Future",
-    description:
-      "Build innovative, scalable, and data-driven software solutions by combining software engineering, cloud technologies, artificial intelligence, and data science while continuously learning and adapting to emerging technologies.",
+      "Apply technical and analytical skills to real-world business problems, focusing on data-driven insights, decision-making, and practical analytics solutions.",
     completed: false,
   },
 ];

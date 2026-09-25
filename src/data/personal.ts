@@ -6,11 +6,11 @@ export const personal = {
     "Java Full Stack Developer",
     "AI & Machine Learning Enthusiast",
     "GenAI Developer",
-    "Data Science Enthusiast",
+    "Data Analytics Enthusiast",
   ],
 
   tagline:
-    "Building scalable software, intelligent applications, and data-driven solutions.",
+    "Building software, exploring data, and solving real-world problems with technology.",
 
   about: [
     "I'm a Computer Science graduate passionate about Software Engineering, Artificial Intelligence, Machine Learning, and Data Science.",

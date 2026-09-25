@@ -3,38 +3,41 @@ import type { Learning } from "../types/learning";
 export const learningItems: Learning[] = [
   {
     id: 1,
+    title: "Data Analytics",
+    description:
+      "Building practical skills in SQL, Python, Pandas, exploratory data analysis, and data-driven problem solving.",
+    status: "Practicing",
+    icon: "📊",
+    technologies: ["SQL", "Python", "Pandas", "Data Analysis"],
+  },
+
+  {
+    id: 2,
+    title: "Data Visualization",
+    description:
+      "Learning to explore and communicate data through effective visualizations, dashboards, and meaningful insights.",
+    status: "Learning",
+    icon: "📈",
+    technologies: ["Data Visualization", "Python", "Pandas"],
+  },
+
+  {
+    id: 3,
     title: "Machine Learning",
     description:
-      "Building a strong foundation in supervised learning, feature engineering, model evaluation, and predictive modeling through hands-on projects.",
+      "Strengthening my understanding of supervised learning, feature engineering, model evaluation, and predictive modeling.",
     status: "Practicing",
     icon: "🧠",
     technologies: ["Python", "Scikit-learn", "Pandas"],
   },
-  {
-    id: 2,
-    title: "Deep Learning",
-    description:
-      "Learning neural networks, TensorFlow, and PyTorch to build intelligent computer vision and natural language processing applications.",
-    status: "Learning",
-    icon: "🧩",
-    technologies: ["TensorFlow", "PyTorch", "Neural Networks"],
-  },
-  {
-    id: 3,
-    title: "Generative AI",
-    description:
-      "Exploring Large Language Models, Prompt Engineering, LangChain, Retrieval-Augmented Generation (RAG), and AI agent development.",
-    status: "Learning",
-    icon: "🤖",
-    technologies: ["LLMs", "LangChain", "RAG"],
-  },
+
   {
     id: 4,
-    title: "Cloud & MLOps",
+    title: "Generative AI",
     description:
-      "Learning Docker, AWS, CI/CD, and MLOps practices for deploying scalable AI and software applications.",
+      "Exploring Large Language Models, prompt engineering, and practical applications of generative AI.",
     status: "Learning",
-    icon: "☁️",
-    technologies: ["Docker", "AWS", "CI/CD"],
+    icon: "🤖",
+    technologies: ["LLMs", "Prompt Engineering", "Generative AI"],
   },
 ];

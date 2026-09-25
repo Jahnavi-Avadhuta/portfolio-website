@@ -14,15 +14,14 @@ export const projects: Project[] = [
     id: 1,
     title: "AbhiNOW",
     description:
-      "A full-stack ride-sharing platform with secure authentication, real-time communication, and modern backend architecture.",
+      "A full-stack ride-sharing web application with secure authentication, ride booking, REST APIs, and database-driven functionality.",
     image: "/projects/abhinow.png",
     technologies: [
+      "Java",
       "Spring Boot",
-      "React",
+      "REST APIs",
       "MySQL",
       "JWT",
-      "WebSocket",
-      "Docker",
     ],
     github: "https://github.com/Jahnavi-Avadhuta/AbhiNOW-SpringBoot",
     featured: true,
@@ -30,34 +29,35 @@ export const projects: Project[] = [
 
   {
     id: 2,
-    title: "Bujji AI",
+    title: "BookSwapX",
     description:
-      "An AI-powered voice assistant capable of answering questions and assisting users with intelligent conversations.",
-    image: "/projects/bujji.png",
+      "A full-stack Java web application for buying, selling, and exchanging college textbooks with an automated book-matching mechanism.",
+    image: "/projects/bookswapx.png",
     technologies: [
-      "Python",
-      "GenAI",
-      "Speech Recognition",
-      "LLM",
+      "Java",
+      "Jakarta Servlets",
+      "JSP",
+      "MySQL",
+      "Bootstrap",
     ],
-    github: "https://github.com/Jahnavi-Avadhuta/Bujji-AI-Voice-Assistant",
+    github: "https://github.com/Jahnavi-Avadhuta/BookSwapX",
     featured: true,
   },
 
   {
     id: 3,
-    title: "BookSwapX",
+    title: "Bujji AI",
     description:
-      "Book exchange platform developed using Java EE and MySQL with automatic book matching.",
-    image: "/projects/bookswapx.png",
+      "An AI-powered desktop voice assistant combining speech recognition, conversational AI, APIs, and desktop automation.",
+    image: "/projects/bujji.png",
     technologies: [
-      "Java",
-      "Servlets",
-      "JSP",
-      "Bootstrap",
-      "MySQL",
+      "Python",
+      "OpenAI API",
+      "Speech Recognition",
+      "NewsAPI",
+      "PyAutoGUI",
     ],
-    github: "https://github.com/Jahnavi-Avadhuta/BookSwapX",
+    github: "https://github.com/Jahnavi-Avadhuta/Bujji-AI-Voice-Assistant",
     featured: true,
   },
 
@@ -65,11 +65,11 @@ export const projects: Project[] = [
     id: 4,
     title: "Personal Finance Manager",
     description:
-      "MERN application with authentication and expense tracking developed during AICTE internship.",
+      "A MERN-based personal finance application with authentication, expense tracking, and database-driven functionality developed during an AICTE internship.",
     image: "/projects/finance-manager.png",
     technologies: [
       "MongoDB",
-      "Express",
+      "Express.js",
       "React",
       "Node.js",
       "JWT",
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     id: 5,
     title: "Expense Tracker",
     description:
-      "A Java console-based application for tracking daily expenses with category-wise analysis, file handling, and object-oriented design.",
+      "A Java console application for recording, categorizing, and managing daily expenses using object-oriented programming and file handling.",
     image: "/projects/expense-tracker.png",
     technologies: [
       "Java",
@@ -97,15 +97,15 @@ export const projects: Project[] = [
 
   {
     id: 6,
-    title: "Red Wine Quality Prediction",
+    title: "Health Monitoring using Social Media",
     description:
-      "Machine learning model that predicts wine quality using multiple classification techniques.",
-    image: "/projects/redwine.png",
+      "An academic project exploring social media data to analyze health-related trends over time using machine learning and data analysis techniques.",
+    image: "/projects/health-monitoring.png",
     technologies: [
       "Python",
       "Machine Learning",
-      "Pandas",
-      "Scikit-learn",
+      "NLP",
+      "Data Analysis",
     ],
     github: "",
     featured: false,
@@ -113,15 +113,15 @@ export const projects: Project[] = [
 
   {
     id: 7,
-    title: "Health Monitoring using Social Media",
+    title: "Red Wine Quality Prediction",
     description:
-      "AI/ML project that analyzes Twitter data to identify health trends over time.",
-    image: "/projects/health-monitoring.png",
+      "An academic machine learning project exploring the prediction of red wine quality using classification techniques.",
+    image: "/projects/redwine.png",
     technologies: [
       "Python",
       "Machine Learning",
-      "NLP",
-      "Data Analysis",
+      "Pandas",
+      "Scikit-learn",
     ],
     github: "",
     featured: false,

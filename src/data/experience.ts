@@ -1,4 +1,5 @@
 import { Briefcase, Code2 } from "lucide-react";
+
 import type { Experience } from "../types/experience";
 
 export const experiences: Experience[] = [
@@ -9,36 +10,37 @@ export const experiences: Experience[] = [
     duration: "2025 – 2026",
     location: "Hyderabad, India",
     description:
-      "Successfully completed comprehensive Java Full Stack training with hands-on experience in developing enterprise-grade web applications using Java, Spring Boot, React, MySQL, REST APIs, Hibernate, and Git. Built multiple real-world full-stack projects while strengthening backend development, database design, authentication, and API integration skills.",
+      "Completed comprehensive Java Full Stack training with hands-on development across backend, frontend, databases, and web technologies. Developed full-stack applications using Java, Spring Boot, React, MySQL, and REST APIs while working with Hibernate/JPA for database persistence. Strengthened skills in backend development, API integration, authentication, database design, and software development practices.",
     technologies: [
       "Java",
       "Spring Boot",
       "REST APIs",
       "MySQL",
       "React",
-      "Git",
       "Hibernate",
       "JPA",
+      "Git",
     ],
     icon: Code2,
     current: false,
   },
+
   {
     id: 2,
-    role: "AICTE Edunet Foundation Virtual Intern",
+    role: "MERN Stack Intern",
     company: "Edunet Foundation",
     duration: "Feb 2025 – Mar 2025",
     location: "Remote",
     description:
-      "Developed a Personal Finance Manager using the MERN stack with secure JWT authentication, MongoDB database integration and responsive UI.",
+      "Completed a 6-week internship under the Next Gen Employability Program, developing a Personal Finance Manager using the MERN stack. Worked with React, Node.js, Express, and MongoDB while implementing JWT-based authentication and application features.",
     technologies: [
       "MongoDB",
-      "Express",
+      "Express.js",
       "React",
       "Node.js",
       "JWT",
-      "Socket.io",
     ],
     icon: Briefcase,
+    current: false,
   },
 ];

@@ -44,7 +44,7 @@ const Certificates = () => {
       <Container>
         <SectionHeading
           title="Certificates"
-          subtitle="Professional certifications, internships and achievements."
+          subtitle="Selected certifications and learning milestones from my technical journey."
         />
 
         {/* Summary Card */}

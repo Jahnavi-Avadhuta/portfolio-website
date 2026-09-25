@@ -102,7 +102,7 @@ export const certificates: Certificate[] = [
     ],
     thumbnail: "/certificates/thumbnails/countering-stage-fright.jpg",
     pdf: "/certificates/pdfs/countering-stage-fright.pdf",
-    featured: true,
+    featured: false,
   },
 
   {

@@ -4,10 +4,9 @@ export const skillCategories = [
     skills: [
       "Java",
       "Python",
-      "C",
-      "JavaScript",
-      "TypeScript",
       "SQL",
+      "JavaScript",
+      "C",
     ],
   },
 
@@ -20,7 +19,6 @@ export const skillCategories = [
       "Express.js",
       "HTML5",
       "CSS3",
-      "Tailwind CSS",
       "Bootstrap",
       "REST APIs",
       "JWT",
@@ -29,17 +27,17 @@ export const skillCategories = [
   },
 
   {
-    title: "Artificial Intelligence & Machine Learning",
+    title: "Data & AI",
     skills: [
-      "Python",
-      "Machine Learning",
-      "Generative AI",
-      "Prompt Engineering",
       "Pandas",
       "NumPy",
       "Scikit-learn",
+      "Machine Learning",
+      "Data Analysis",
       "Data Visualization",
       "Data Preprocessing",
+      "Generative AI",
+      "Prompt Engineering",
     ],
   },
 
@@ -68,9 +66,8 @@ export const skillCategories = [
   {
     title: "Computer Science Fundamentals",
     skills: [
-      "Data Structures",
-      "Algorithms",
-      "OOP",
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
       "DBMS",
       "Operating Systems",
       "Computer Networks",
@@ -80,14 +77,11 @@ export const skillCategories = [
   {
     title: "Currently Learning",
     skills: [
-      "Advanced Python",
-      "Deep Learning",
-      "Data Science",
-      "LangChain",
-      "RAG",
-      "AWS",
-      "Kubernetes",
-      "CI/CD",
+      "Data Analytics - SQL, Python, Pandas, exploratory data analysis",
+      "Data Visualization - charts, dashboards, communicating insights",
+      "Business Analytics - applying data to business problems and decision-making",
+      "Advanced Python - strengthening Python for data-oriented work",
+      "Machine Learning - predictive modeling and model evaluation",
     ],
   },
 ];

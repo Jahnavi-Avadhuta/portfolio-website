@@ -17,8 +17,7 @@ const Footer = () => {
             </h3>
 
             <p className="mt-2 max-w-md text-gray-400">
-              Software Engineer building scalable software, intelligent
-              applications, and data-driven solutions.
+              Computer Science graduate exploring software, data, and analytics.
             </p>
           </div>
 

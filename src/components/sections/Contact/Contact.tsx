@@ -17,7 +17,7 @@ const Contact = () => {
 
         <SectionHeading
           title="Get In Touch"
-          subtitle="Let's connect and build something amazing together."
+          subtitle="Let's connect and discuss technology, data, and opportunities to collaborate."
         />
 
         <div className="mt-16 grid gap-12 lg:grid-cols-2">
