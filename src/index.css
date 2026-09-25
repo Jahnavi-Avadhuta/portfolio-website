@@ -3,14 +3,11 @@
 :root {
   --primary: #2563eb;
   --secondary: #1e40af;
-
-  --background: #ffffff;
+  --background: #e8edf7;
   --surface: #f8fafc;
-
-  --text: #0f172a;
+  --text: #172033;
   --text-light: #64748b;
-
-  --border: #e2e8f0;
+  --border: #cdd6e6;
 }
 
 .dark {
